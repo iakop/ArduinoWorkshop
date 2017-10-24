@@ -3,7 +3,7 @@
 #define BCK 3 // Pin til det bagudg?ende
 
 #define BTN 8 // Knappens pin
-#define AIN // Analog input
+#define AIN A0 // Analog input
 
 #define FORWARD 1
 #define BACK 0
@@ -18,7 +18,7 @@ void setup() {
 	// BTN er input.
 	pinMode(BTN, INPUT);
 	
-  // Alle pins sættes til output:
+  // Alle pins sï¿½ttes til output:
   pinMode(FWD, OUTPUT);
   pinMode(BCK, OUTPUT);
   pinMode(EN, OUTPUT);
@@ -30,6 +30,7 @@ void setup() {
 void loop() {
 
 	if(digitalRead(BTN) == HIGH && (millis() > timer + 200)){
+    timer = millis();
 		direction = !direction;
 	}
 
@@ -42,7 +43,7 @@ void loop() {
 
 // Definitionen p? vores egen funktion:
 int turnMotor (boolean dir, int spd){ // Tager to argumenter: dit og spd.
-  switch (dir){ // Afhængig af retning, sættes FWD og BCK forskelligt.
+  switch (dir){ // Afhï¿½ngig af retning, sï¿½ttes FWD og BCK forskelligt.
     case FORWARD:
       digitalWrite(BCK, LOW);
       digitalWrite(FWD, HIGH);
