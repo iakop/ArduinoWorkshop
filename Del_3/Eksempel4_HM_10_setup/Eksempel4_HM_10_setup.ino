@@ -24,7 +24,7 @@ void loop() {
   // Læser fra Arduino, og sender til HC05:
 	// AT-Commands kan findes i en HC-05_AT_commands.pdf
 	// Giv modulet et navn med AT+NAME[navn]
-	// Sæt et nyt kodeord vha. AT+PASS[kode]
+	// Sæt et nyt kodeord vha. AT+PIN[kode]
 	// Sæt baud-rate til 115200: AT+BAUD4
   // Sæt stop bit til 1: AT+STOP0
   // Sæt Parity til ingen: AT+PARI0
