@@ -10,7 +10,7 @@ void setup() {
   digitalWrite(EN, HIGH);
   Serial.begin(9600); // Start serial kommunikation med computeren.
   Serial.println("Enter AT-Commands:"); // Prompt for AT kommandoer.
-  HM10.begin(9600); // S?tter HC05 serial hastigheden til 38400 baud. AT mode standardhastighed.
+  HM10.begin(9600); // S?tter HC05 serial hastigheden til 9600 baud. AT mode standardhastighed.
 
 }
 
@@ -25,9 +25,9 @@ void loop() {
 	// AT-Commands kan findes i en HC-05_AT_commands.pdf
 	// Giv modulet et navn med AT+NAME[navn]
 	// Sæt et nyt kodeord vha. AT+PASS[kode]
-	// Sæt baud-rate til 115200: AT+BAUD=4
-  // Sæt stop bit til 1: AT+STOP=0
-  // Sæt Parity til ingen: AT+BAUD=0
+	// Sæt baud-rate til 115200: AT+BAUD4
+  // Sæt stop bit til 1: AT+STOP0
+  // Sæt Parity til ingen: AT+PARI0
 	// HUSK at anvende Carriage return OG newline i Serial forbindelsen.
   if(Serial.available()){
     HM10.write(Serial.read());
