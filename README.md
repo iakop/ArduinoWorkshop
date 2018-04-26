@@ -5,8 +5,9 @@ Jeg har uploadet HM-10 firmware til CC41-a modulet, og min android kan også pai
 
 ## Hvad vi gør
 Hvis man har android vil jeg anbefale at vælge HC-05!!!
-Den virker og er testet med mine eksempler. Derudover har jeg fundet en god app, ud over Arduino BT Joystick Free
-Download Bluetooth RC Controller, dens UI fungerer lidt bedre til de opgaver robotten skal udføre, og så er dens serial strings lettere at parse. :)
+Den virker og er testet med mine eksempler. Derudover har jeg fundet en god app, ud over Arduino BT Joystick Free.
+
+Download Arduino Bluetooth RC Car, dens UI fungerer lidt bedre til de opgaver robotten skal udføre, og så er dens serial strings lettere at parse. :)
 
 Hvis man ikke har en Android, men en Windows PC, kan man bruge stadig bruge Blueduino med HC-05. Men appen virker umiddelbart ustabil, så jeg vil foreslå at vælge Android hvis man kan.
 
