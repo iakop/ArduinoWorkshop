@@ -13,9 +13,13 @@ Der vil først blive undervist i hvordan man bygger nogle praktiske kredsløb op
 Den resterende halvdel kommer til at arbejde mere fokuseret på at bygge en køredygtig robot, som kan styres med Bluetooth fra en Joystick App. Til sidst vil der være plads til en lille robotkonkurrence!
 
 Workshoppen er baseret på følgende komponenter:
+
 https://www.aliexpress.com/item/4001217353266.html - Geekcreit Arduino Uno Kit
+
 https://www.aliexpress.com/item/4000146001648.html - 2WD Smart Robot Car Chassis
+
 https://www.aliexpress.com/item/32612978653.html - HC-05 Bluetooth Transciever
+
 https://www.aliexpress.com/item/1005002353427075.html - L293D Motor Driver
 
 ______________________________________________________________________________________
